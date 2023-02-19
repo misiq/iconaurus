@@ -1,0 +1,22 @@
+{
+  "name": "iconaucus",
+  "version": "1.0.0",
+  "description": "icon component library",
+  "script": {
+    "svgr": "svgr --icon --title-prop -d src assets/icons"
+  },
+  "keywords": [
+    "React",
+    "SVG",
+    "Icons"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michał Baran",
+  "license": "ISC",
+  "devDependencies": {
+    "@svgr/cli": "^6.5.1",
+    "rimraf": "^4.1.2"
+  }
+}
